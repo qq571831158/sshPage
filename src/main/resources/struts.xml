@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.objectFactory" value="spring" />
+    <constant name="struts.convention.result.path" value="/WEB-INF/jsp/"/>
+    <!--<constant name="struts.action.excludePattern" value="/WEB-INF/jquery-2.1.1/.*?" />&lt;!&ndash; default locale &ndash;&gt;-->
+    <!--<package name="myssh" extends="struts-default" namespace="/">-->
+        <!--<action name="index" class="indexAction">-->
+            <!--<result name="success">/WEB-INF/jsp/login.jsp</result>-->
+        <!--</action>-->
+        <!--&lt;!&ndash;<action name="user_dologin" class="userAction" method="login">&ndash;&gt;-->
+            <!--&lt;!&ndash;<result name="success">/WEB-INF/jsp/main.jsp</result>&ndash;&gt;-->
+            <!--&lt;!&ndash;<result name="fail">/WEB-INF/jsp/login.jsp</result>&ndash;&gt;-->
+        <!--&lt;!&ndash;</action>&ndash;&gt;-->
+    <!--</package>-->
+</struts>
